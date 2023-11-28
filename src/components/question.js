@@ -14,14 +14,14 @@ const Question = (props) => {
 }
 
 Question.defaultProps = {
+  Question: 'What types of cars do you sell?',
   Answer:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus.',
-  Question: 'What types of cars do you sell?',
 }
 
 Question.propTypes = {
-  Answer: PropTypes.string,
   Question: PropTypes.string,
+  Answer: PropTypes.string,
 }
 
 export default Question

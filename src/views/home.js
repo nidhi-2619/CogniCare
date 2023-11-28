@@ -11,19 +11,19 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Lasting Glorious Cat</title>
-        <meta property="og:title" content="Lasting Glorious Cat" />
+        <title>CogniCare</title>
+        <meta property="og:title" content="CogniCare" />
       </Helmet>
       <div className="home-header">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <span className="home-logo">COGNICARE</span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
-              <span>Home</span>
-              <span className="home-nav2">About</span>
-              <span className="home-nav3">Features</span>
-              <span className="home-nav4">Pricing</span>
-              <span className="home-nav5">Login</span>
+              <span>About</span>
+              <span className="home-nav2">Features</span>
+              <span className="home-nav3">Pricing</span>
+              <span className="home-nav4">Team</span>
+              <span className="home-nav5">Blog</span>
             </nav>
             <div className="home-buttons">
               <button className="home-login button">Login</button>
@@ -46,11 +46,11 @@ const Home = (props) => {
                 </div>
               </div>
               <nav className="home-links1">
-                <span className="home-nav11">Home</span>
-                <span className="home-nav21">About</span>
-                <span className="home-nav31">Features</span>
-                <span className="home-nav41">Pricing</span>
-                <span className="home-nav51">Login</span>
+                <span className="home-nav11">About</span>
+                <span className="home-nav21">Features</span>
+                <span className="home-nav31">Pricing</span>
+                <span className="home-nav41">Team</span>
+                <span className="home-nav51">Blog</span>
               </nav>
               <div className="home-buttons1">
                 <button className="home-login1 button">Login</button>
@@ -76,11 +76,10 @@ const Home = (props) => {
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">CogniCare</h1>
             <span className="home-hero-sub-heading">
-              Detecting Brain Diseases with Ease
+              Brain Disease Diagnosis System
             </span>
             <div className="home-btn-group">
-              <button className="home-hero-button1 button">Get Started</button>
-              <button className="home-hero-button2 button">Learn More →</button>
+              <button className="home-hero-button1 button">Upload Image</button>
             </div>
           </div>
         </div>
@@ -94,17 +93,15 @@ const Home = (props) => {
             </span>
             <h2 className="home-details-heading heading2">About CogniCare</h2>
             <span className="home-details-sub-heading">
-              CogniCare is a web application that aims to help patients detect
-              brain diseases by providing information about symptoms and
-              offering the option to share images for accurate diagnosis. With a
-              user-friendly interface and seamless user experience, CogniCare
-              makes it easy for patients to understand their brain health. Sign
-              up now to get started on your journey towards better brain care.
+              CogniCare is a revolutionary web application designed to provide
+              accurate diagnosis of brain diseases. With advanced algorithms and
+              machine learning techniques, CogniCare can detect brain tumors,
+              dementia, Parkinson&apos;s, and epilepsy at an early stage.
             </span>
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk2MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+            src="https://images.unsplash.com/photo-1572625259782-94ac200efcdb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3NHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
             className="home-details-image"
           />
         </div>
@@ -117,27 +114,29 @@ const Home = (props) => {
                 <span>features</span>
                 <br></br>
               </span>
-              <h2 className="home-features-heading heading2">Key Features</h2>
+              <h2 className="home-features-heading heading2">
+                Advanced Disease Diagnosis
+              </h2>
               <span className="home-features-sub-heading">
-                Discover the powerful features of CogniCare
+                Empowering healthcare professionals with cutting-edge technology
               </span>
             </div>
             <div className="home-container04">
               <FeatureCard
-                Heading="Symptom Checker"
-                SubHeading="Users can input their symptoms and receive information about potential brain diseases."
+                Heading="Brain Tumor Detection"
+                SubHeading="Detect brain tumors at an early stage for timely treatment"
               ></FeatureCard>
               <FeatureCard
-                Heading="Image Upload"
-                SubHeading="Patients can upload their brain images for analysis and diagnosis."
+                Heading="Dementia Diagnosis"
+                SubHeading="Accurately diagnose dementia and provide personalized care plans"
               ></FeatureCard>
               <FeatureCard
-                Heading="Disease Detection"
-                SubHeading="The web application uses advanced algorithms to analyze symptoms and images to detect brain diseases."
+                Heading="Parkinson's Disease Detection"
+                SubHeading="Identify symptoms of Parkinson's disease and recommend appropriate therapies"
               ></FeatureCard>
               <FeatureCard
-                Heading="User Profiles"
-                SubHeading="Users can create accounts, login, and access their personal information and history."
+                Heading="Epilepsy Monitoring"
+                SubHeading="Monitor epilepsy seizures and provide insights for better management"
               ></FeatureCard>
             </div>
           </div>
@@ -151,11 +150,11 @@ const Home = (props) => {
               <br></br>
             </span>
             <h2 className="home-pricing-heading heading2">
-              Choose the Right Plan for You
+              Choose the Perfect Plan for You
             </h2>
             <span className="home-pricing-sub-heading">
-              Unlock the full potential of CogniCare with our flexible pricing
-              options
+              Unlock the power of CogniCare and take control of your brain
+              health
             </span>
           </div>
           <div className="home-container06">
@@ -163,7 +162,7 @@ const Home = (props) => {
               <div className="home-container07">
                 <span className="home-text09 heading3">Free</span>
                 <span className="home-free-plan-description">
-                  Access to basic features and symptom information
+                  Access basic features of CogniCare for free
                 </span>
               </div>
               <div className="home-container08">
@@ -177,25 +176,25 @@ const Home = (props) => {
                 <div className="home-container10">
                   <span className="home-text13">✔</span>
                   <span className="home-free-plan-features">
-                    Access to symptom checker
+                    Brain disease diagnosis system
                   </span>
                 </div>
                 <div className="home-container11">
                   <span className="home-text14">✔</span>
                   <span className="home-free-plan-features1">
-                    Information about common brain diseases
+                    Detection of brain tumors
                   </span>
                 </div>
                 <div className="home-container12">
                   <span className="home-text15">✔</span>
                   <span className="home-free-plan-features2">
-                    Option to save and track symptoms
+                    Detection of dementia
                   </span>
                 </div>
                 <div className="home-container13">
                   <span className="home-text16">✔</span>
                   <span className="home-free-plan-features3">
-                    Free Plan Feature
+                    Detection of Parkinson&apos;s
                   </span>
                 </div>
               </div>
@@ -205,7 +204,7 @@ const Home = (props) => {
               <div className="home-container14">
                 <span className="home-text17 heading3">BASIC</span>
                 <span className="home-basic-plan-description">
-                  Enhanced features and personalized recommendations
+                  Unlock more advanced features with the Basic plan
                 </span>
               </div>
               <div className="home-container15">
@@ -224,25 +223,25 @@ const Home = (props) => {
                 <div className="home-container18">
                   <span className="home-text24">✔</span>
                   <span className="home-basic-plan-features">
-                    Personalized disease detection based on symptoms
+                    All features of the Free plan
                   </span>
                 </div>
                 <div className="home-container19">
                   <span className="home-text25">✔</span>
                   <span className="home-basic-plan-features1">
-                    Detailed information about specific brain diseases
+                    Detailed disease analysis
                   </span>
                 </div>
                 <div className="home-container20">
                   <span className="home-text26">✔</span>
                   <span className="home-basic-plan-features2">
-                    Option to share images for advanced analysis
+                    Personalized recommendations
                   </span>
                 </div>
                 <div className="home-container21">
                   <span className="home-text27">✔</span>
                   <span className="home-basic-plan-features3">
-                    Priority customer support
+                    Access to premium disease information
                   </span>
                 </div>
               </div>
@@ -257,7 +256,7 @@ const Home = (props) => {
                   <br></br>
                 </span>
                 <span className="home-pro-plan-description">
-                  Premium features and expert consultation
+                  Get the ultimate experience with the Pro plan
                 </span>
               </div>
               <div className="home-container23">
@@ -278,19 +277,19 @@ const Home = (props) => {
                 <div className="home-container26">
                   <span className="home-text37">✔</span>
                   <span className="home-pro-plan-features">
-                    Expert consultation with neurologists
+                    All features of the Basic plan
                   </span>
                 </div>
                 <div className="home-container27">
                   <span className="home-text38">✔</span>
                   <span className="home-pro-plan-features1">
-                    Access to advanced diagnostic tools
+                    Priority support
                   </span>
                 </div>
                 <div className="home-container28">
                   <span className="home-text39">✔</span>
                   <span className="home-pro-plan-features2">
-                    Unlimited image uploads for analysis
+                    Advanced disease prediction algorithms
                   </span>
                 </div>
               </div>
@@ -303,55 +302,55 @@ const Home = (props) => {
         <div className="home-gallery1">
           <h1 className="home-gallery-heading heading2">CogniCare Gallery</h1>
           <span className="home-gallery-sub-heading">
-            Explore the world of brain disease detection with CogniCare
+            Explore the world of brain disease diagnosis with CogniCare
           </span>
           <div className="home-container29">
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1578496479530-799fd6d0803a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1583912086005-ac9abca6c9db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1576670159375-8beb7c963ead?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1549925245-f20a1bac6454?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName1"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1583911860367-8b9fa77c6f4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1581595219145-01060b2eb27d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName3"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1579781354186-012d7e850ad7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1581594725728-880522845479?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName2"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1579154204449-47c454770447?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1578496479939-722d9dd1cc5b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName4"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1453847668862-487637052f8a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1586773860383-dab5f3bc1bcc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName5"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1576089388754-68c54a863b60?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName6"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1581595220921-eec2071e5159?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName7"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1582719471327-5bd41fcf7f7f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1579780864813-863e246d3bc5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName8"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1579781403289-674275bc71c5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1568495341369-1066472c7a27?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName9"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1576086213369-97a306d36557?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1583911860367-8b9fa77c6f4c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName10"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1579781354199-1ffd36bd7d30?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE1MTk1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              image_src="https://images.unsplash.com/photo-1576091358783-a212ec293ff3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMTE3MjA3MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>
@@ -360,12 +359,13 @@ const Home = (props) => {
       <div className="home-banner">
         <div className="home-banner1">
           <h1 className="home-banner-heading heading2">
-            Discover Your Brain Health
+            Detect and Diagnose Brain Diseases
           </h1>
           <span className="home-banner-sub-heading">
-            Learn about symptoms and get accurate disease detection.
+            CogniCare offers a comprehensive web application that can detect
+            brain tumors, dementia, Parkinson&apos;s, and epilepsy.
           </span>
-          <button className="home-banner-button button">Learn More</button>
+          <button className="home-banner-button button">Read More</button>
         </div>
       </div>
       <div className="home-faq">
@@ -454,24 +454,24 @@ const Home = (props) => {
             </div>
             <div className="home-container31">
               <Question
-                Answer="CogniCare is a web application that helps detect brain diseases. It provides information about symptoms to patients and allows them to upload images for disease identification."
+                Answer="CogniCare is a web application that serves as a brain disease diagnosis system. It can detect diseases like brain tumors, dementia, Parkinson's, and epilepsy."
                 Question="What is CogniCare?"
               ></Question>
               <Question
-                Answer="CogniCare uses advanced algorithms to analyze uploaded images and compare them with a database of known brain diseases. It then provides the user with information about the detected disease."
-                Question="How does CogniCare work?"
+                Answer="CogniCare uses advanced algorithms and machine learning techniques to analyze user-provided data and symptoms. It compares the input with a vast database of medical knowledge to provide accurate diagnoses."
+                Question="How does CogniCare diagnose brain diseases?"
               ></Question>
               <Question
-                Answer="While CogniCare strives to provide accurate results, it is important to note that it is not a substitute for professional medical advice. It is recommended to consult with a healthcare professional for an accurate diagnosis."
-                Question="Is CogniCare accurate in detecting brain diseases?"
+                Answer="Yes, users are required to register before using CogniCare. Registration allows us to securely store your data and provide personalized recommendations based on your medical history."
+                Question="Do I need to register to use CogniCare?"
               ></Question>
               <Question
-                Answer="Absolutely! CogniCare takes user privacy seriously and ensures that all uploaded images are securely stored and only used for disease detection purposes. Your data will not be shared with any third parties."
-                Question="Can I trust the privacy of my uploaded images?"
+                Answer="During registration, you will be asked to provide basic personal information such as your name, email address, and password. Additionally, you may be required to provide relevant medical history for better diagnosis accuracy."
+                Question="What information do I need to provide during registration?"
               ></Question>
               <Question
-                Answer="Yes, you need to create an account to access all the features of CogniCare. The login and signup options are available on the landing page."
-                Question="Do I need to create an account to use CogniCare?"
+                Answer="Yes, we take the security and privacy of your personal information very seriously. We use industry-standard encryption techniques and follow strict security protocols to ensure the confidentiality of your data."
+                Question="Is my personal information secure?"
               ></Question>
             </div>
           </div>
@@ -482,17 +482,17 @@ const Home = (props) => {
           <div className="home-container32">
             <span className="home-logo2">COGNICARE</span>
             <nav className="home-nav1 home-nav1">
-              <span className="home-nav12">Home</span>
-              <span className="home-nav22">About</span>
-              <span className="home-nav32">Features</span>
-              <span className="home-nav42">Pricing</span>
-              <span className="home-nav52">Login</span>
+              <span className="home-nav12">About</span>
+              <span className="home-nav22">Features</span>
+              <span className="home-nav32">Pricing</span>
+              <span className="home-nav42">Team</span>
+              <span className="home-nav52">Blog</span>
             </nav>
           </div>
           <div className="home-separator"></div>
           <div className="home-container33">
             <span className="home-text61">
-              © 2023 myCompany, All Rights Reserved.
+              © 2023 CogniCare, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
               <svg viewBox="0 0 950.8571428571428 1024" className="home-icon10">
